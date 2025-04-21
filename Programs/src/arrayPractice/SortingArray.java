@@ -19,7 +19,6 @@ public class SortingArray {
 		{
 			System.out.println(arr[i]);
 		}
-
 		
 	}
 	
