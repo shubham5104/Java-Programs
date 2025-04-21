@@ -1,11 +1,26 @@
 package arrayPractice;
 
+import java.util.Arrays;
+
 public class SortingArray {
 
 	public static void main(String[] args) {
 		int[] arr= {4,3,6,22};
 		
-		sortAscending(arr);
+//		User Define Methods
+		
+//		sortAscending(arr);
+//		sortDecending(arr);
+		
+//		Predefine Methods
+		
+		Arrays.sort(arr);
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println(arr[i]);
+		}
+
+		
 	}
 	
 	static void sortDecending(int[] arr) {
