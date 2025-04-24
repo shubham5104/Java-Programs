@@ -33,4 +33,18 @@ public class ReverseString {
 		
 		return count;
 	}
+	
+	static int occurrence(String str,String word)
+	{
+		String[] str1=str.split(" ");
+		int n=0;
+		for(int i=0;i<str1.length;i++)
+		{
+			if(str1[i].equals(word))
+			{
+				n++;
+			}
+		}
+		return n;
+	}
 }
