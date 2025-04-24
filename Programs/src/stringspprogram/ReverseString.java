@@ -47,4 +47,24 @@ public class ReverseString {
 		}
 		return n;
 	}
+	static String findLongestWord(String str)
+	{
+		String[] str1=str.split(" ");
+		String longword="";
+		int max=0;
+		for(int i=0;i<str1.length;i++)
+		{
+			if(max<str1[i].length())
+			{
+				max=str1[i].length();
+				longword=str1[i];
+			}
+			else
+			{
+				longword=str1[i];
+				max=str1[i].length();
+			}
+		}
+		return longword;
+	}
 }
