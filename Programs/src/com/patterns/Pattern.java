@@ -25,6 +25,12 @@ public class Pattern {
 	}
 	}
 	
+//	*****
+//	 4321
+//	  333
+//	   21
+//	    1
+	
 	static void pattern2()
 	{
 		for(int i=5;i>0;i--)
