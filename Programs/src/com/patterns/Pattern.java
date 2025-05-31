@@ -5,7 +5,7 @@ public class Pattern {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Pattern.pattern2mat();
+		Pattern.pattern3();
 	}
 	
 //	*****
@@ -66,6 +66,34 @@ public class Pattern {
 				else
 					System.out.print(j);
 				
+			}
+			System.out.println();
+		}
+	}
+	
+	
+	static void pattern3()
+	{
+		for(int i=5;i>=1;i--)
+		{
+			for(int k=5;k>i;k--)
+			{
+				System.out.print(" ");
+			}
+			for(int j=i;j>=1;j--)
+			{
+				if(i==5)
+				{
+					System.out.print("*");
+				}
+				else if(i==3)
+				{
+					System.out.print("3");
+				}
+				else
+				{
+					System.out.print(j);
+				}
 			}
 			System.out.println();
 		}
