@@ -1,6 +1,6 @@
 package com.designPattern;
 
-//LAZY Singleton pattern
+//LAZY way of creating Singleton Object
 public class Cack {
 
 	static Cack cack;
