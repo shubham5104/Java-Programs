@@ -7,6 +7,9 @@ public class Party {
 		Cack cack= Cack.getCack();
 		Cack cack1=Cack.getCack();
 		
+		System.out.println(Gift.getGift().hashCode());
+		System.out.println(Gift.getGift().hashCode());
+		
 		System.out.println(cack.hashCode());
 		System.out.println(cack1.hashCode());
 		
